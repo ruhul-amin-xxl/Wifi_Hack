@@ -11,6 +11,7 @@
 ### Installation:  
 
 ```bash
+$ rm -rf Wifi_Hack
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
@@ -19,6 +20,15 @@ $ cd Wifi_Hack
 $ chmod +x Wifi_Hack.py
 $ sudo python Wifi_Hack.py --help
 ```
+
+
+### One line command: 
+
+```bash
+rm -rf Wifi_Hack && apt update && apt upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/ruhul-amin-xxl/Wifi_Hack && cd Wifi_Hack && chmod +x Wifi_Hack.py && sudo python Wifi_Hack.py --help
+```
+
+
 Example:
 ### Note:First,  turn off your Wi-Fi.
 
