@@ -6,15 +6,29 @@
 
 ### Hack WIfi Using Termux With Rooted Devices!
 
+<!-- Social Badges-->
+<hr />
+<p align=center>
+    <a href="https://facebook.com/Ruhuillaaah" target="_blank"><img
+            src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logoColor=white&logo=facebook"
+            alt="Facebook"></a>
+    <a href="https://instagram.com/ruhuillaaah_" target="_blank"><img
+            src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logoColor=white&logo=instagram"
+            alt="Instagram"></a>
+
+</p>
+<hr />
+
+
 <p align="center"><img src="https://i.ibb.co.com/whCnGHbr/Picsart-25-04-01-12-35-57-709-1.jpg"></p>
 
 ### Installation:  
 
 ```bash
-$ rm -rf Wifi_Hack
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
+$ rm -rf Wifi_Hack
 $ git clone https://github.com/ruhul-amin-xxl/Wifi_Hack
 $ cd Wifi_Hack
 $ chmod +x Wifi_Hack.py
@@ -25,7 +39,7 @@ $ sudo python Wifi_Hack.py --help
 ### One line command: 
 
 ```bash
-rm -rf Wifi_Hack && apt update && apt upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/ruhul-amin-xxl/Wifi_Hack && cd Wifi_Hack && chmod +x Wifi_Hack.py && sudo python Wifi_Hack.py --help
+apt update && apt upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && rm -rf Wifi_Hack && git clone https://github.com/ruhul-amin-xxl/Wifi_Hack && cd Wifi_Hack && chmod +x Wifi_Hack.py && sudo python Wifi_Hack.py --help
 ```
 
 
