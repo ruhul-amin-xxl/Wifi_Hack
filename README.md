@@ -39,7 +39,7 @@ $ sudo python Wifi_Hack.py --help
 ### One line command: 
 
 ```bash
-apt update && apt upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && rm -rf Wifi_Hack && git clone https://github.com/ruhul-amin-xxl/Wifi_Hack && cd Wifi_Hack && chmod +x Wifi_Hack.py && sudo python Wifi_Hack.py --help
+apt update && apt upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && rm -rf Wifi_Hack && git clone https://github.com/ruhul-amin-xxl/Wifi_Hack && cd Wifi_Hack && chmod +x Wifi_Hack.py && sudo python Wifi_Hack.py -i wlan0 -K
 ```
 
 
